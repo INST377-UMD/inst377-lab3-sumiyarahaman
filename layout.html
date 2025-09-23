@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link rel="stylesheet" href="layout.css">
+    </head>
+    <body> 
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+
+    <!-- Navigation bar -->
+        <nav id="main-nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+
+      <!-- Main Content -->
+
+      <div id="main-container">
+
+        <div id="main-content">
+        <h1>Please Choose One of the Following</h1>
+        <form name = "rps">
+            <label for="name">Name: </label>
+            <input type="text" id="name" required>
+            <br>
+            <label for="choice">Choice: </label>
+            <select id="choice" name="choice" required>
+                <option value="">--Please select--</option>
+                <option value="rock">Rock</option>
+                <option value="paper">Paper</option>
+                <option value="scissors">Scissors</option>
+            </select>
+         <br><br>
+
+       <input type="submit" value="Submit">
+        </form>
+
+        </div>
+        <div id="sidebar">
+            <!-- Side Bar -->
+            <aside id="sidebar">
+                <h2>Rules</h2>
+                <p>You Must Choose Rock, Paper, or Scissors</p>
+                <h3>The Combinations are as Follows:</h3>
+                <ul>
+                    <li>Rock beats Scissors</li>
+                    <li>Scissors beats Paper</li>
+                    <li>Paper beats Rock</li>
+                    <li>If both players choose the same, it's a tie!</li>
+                </ul>
+            </aside>
+
+        </div>
+      </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <p>Lab 3 Rock Paper Scissors Assignments</p>
+    </footer>
+
+    </body>
+</html>
